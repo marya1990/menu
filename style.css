@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,300&family=Poppins:ital,wght@0,200;0,300;0,400;1,500&family=Roboto+Mono:ital,wght@1,100;1,400&family=Roboto+Slab:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    
+    min-height: 100vh;
+    background: linear-gradient(to right, #ff9966,#ff5e62 );
+    
+}
+.container{
+    position: absolute;
+    visibility: hidden;
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-shadow: rgba(1box00, 100, 111, 0.2) 0px 7px 29px 0px; 
+}
+.container .menu ,.share-menu{
+    list-style-type: none;
+    padding: 0 10px;
+
+}
+.menu .item{
+    
+    padding: 5px 10px;
+    cursor: pointer; 
+    border-radius: 5px;
+
+}
+.menu .item i{
+    padding-right: 10px;
+}
+.menu .item:hover{
+    background: #f2f2f2 ;
+
+}
+.menu .setting{
+    border-top: 1px solid #ccc;
+    margin-right: 10px 0;
+    padding-top: 10px;
+}
+.menu .share{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.menu .share .share-menu{
+    width: 170px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    left: 260px;
+    box-shadow: rgba(1box00, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px 5px;
+    visibility: hidden;
+}
+.menu .share:hover .share-menu{
+    visibility: visible;
+}
+
